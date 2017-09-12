@@ -1,0 +1,43 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1505027861825
+Build-Jdk: 1.8.0_144
+Built-By: malintha
+Bundle-Description: Apache Synapse - FIX Transport
+Bundle-DocURL: http://www.apache.org/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Synapse - FIX Transport
+Bundle-SymbolicName: synapse-fix-transport
+Bundle-Vendor: Apache Software Foundation
+Bundle-Version: 3.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+DynamicImport-Package: *
+Export-Package: org.apache.synapse.transport.fix;uses:="org.apache.axis2
+ .transport.base.threads,org.apache.axis2.description,quickfix,org.apach
+ e.axis2.context,org.apache.axis2.transport,org.apache.axis2.engine,org.
+ apache.axis2.transport.base,org.apache.commons.logging,javax.xml.namesp
+ ace,quickfix.field,org.apache.axis2,org.apache.axis2.util,org.apache.ax
+ is2.wsdl,javax.management,org.quickfixj.jmx,org.apache.axis2.addressing
+ ,org.apache.axiom.om,org.apache.axiom.soap,org.apache.axiom.attachments
+ ,javax.activation";version="3.0.1.SNAPSHOT",org.apache.synapse.transpor
+ t.fix.message;uses:="org.apache.axiom.om,org.apache.axiom.soap,org.apac
+ he.axis2.builder,org.apache.commons.logging,org.apache.synapse.transpor
+ t.fix,quickfix,org.apache.axis2,org.apache.axis2.context,org.apache.axi
+ s2.transport";version="3.0.1.SNAPSHOT"
+Ignore-Package: javax.xml.namespace
+Import-Package: javax.activation;version="[1.1,2)";resolution:=optional,
+ javax.management;resolution:=optional,javax.xml.namespace;version="0.0.
+ 0",org.apache.axiom.attachments;resolution:=optional,org.apache.axiom.o
+ m;resolution:=optional,org.apache.axiom.soap;resolution:=optional,org.a
+ pache.axis2;resolution:=optional,org.apache.axis2.addressing;resolution
+ :=optional,org.apache.axis2.builder;resolution:=optional,org.apache.axi
+ s2.context;resolution:=optional,org.apache.axis2.description;resolution
+ :=optional,org.apache.axis2.engine;resolution:=optional,org.apache.axis
+ 2.transport;resolution:=optional,org.apache.axis2.transport.base;resolu
+ tion:=optional,org.apache.axis2.transport.base.threads;resolution:=opti
+ onal,org.apache.axis2.util;resolution:=optional,org.apache.axis2.wsdl;r
+ esolution:=optional,org.apache.commons.logging;resolution:=optional,org
+ .quickfixj.jmx;version="[1.6,2)";resolution:=optional,quickfix;version=
+ "[1.6,2)";resolution:=optional,quickfix.field;version="[1.6,2)";resolut
+ ion:=optional
+Tool: Bnd-1.50.0

@@ -1,0 +1,9 @@
+org\apache\synapse\transport\pipe\EndDelimitedProtocol$ProtocolDecoderImpl.class
+org\apache\synapse\transport\pipe\ProtocolDecoder.class
+org\apache\synapse\transport\pipe\EndDelimitedProtocol.class
+org\apache\synapse\transport\pipe\PipeConstants.class
+org\apache\synapse\transport\pipe\PipeEndpoint.class
+org\apache\synapse\transport\pipe\PipeDispatcher.class
+org\apache\synapse\transport\pipe\PipeListener.class
+org\apache\synapse\transport\pipe\Protocol.class
+org\apache\synapse\transport\pipe\PipeEndpointListener.class

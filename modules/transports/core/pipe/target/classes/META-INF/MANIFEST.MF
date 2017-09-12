@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1505027855574
+Build-Jdk: 1.8.0_144
+Built-By: malintha
+Bundle-Description: Apache Synapse - PIPE Transport
+Bundle-DocURL: http://www.apache.org/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Synapse - PIPE Transport
+Bundle-SymbolicName: synapse-pipe-transport
+Bundle-Vendor: Apache Software Foundation
+Bundle-Version: 3.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apache.synapse.transport.pipe;uses:="org.apache.axis
+ 2.transport.base,org.apache.axis2.description,org.apache.axis2,org.apac
+ he.axis2.transport.base.datagram,org.apache.axis2.addressing,org.apache
+ .commons.logging";version="3.0.1.SNAPSHOT"
+Import-Package: org.apache.axis2;resolution:=optional,org.apache.axis2.a
+ ddressing;resolution:=optional,org.apache.axis2.description;resolution:
+ =optional,org.apache.axis2.transport.base;resolution:=optional,org.apac
+ he.axis2.transport.base.datagram;resolution:=optional,org.apache.common
+ s.logging;resolution:=optional
+Tool: Bnd-1.50.0

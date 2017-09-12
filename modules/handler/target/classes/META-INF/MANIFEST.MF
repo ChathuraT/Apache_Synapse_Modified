@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1505028029145
+Build-Jdk: 1.8.0_144
+Built-By: malintha
+Bundle-Description: Apache Synapse - Handler Module
+Bundle-DocURL: http://www.apache.org/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Synapse - Handler Module
+Bundle-SymbolicName: synapse-handler
+Bundle-Vendor: Apache Software Foundation
+Bundle-Version: 3.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Import-Package: org.apache.axiom.attachments;resolution:=optional,org.ap
+ ache.axiom.soap;resolution:=optional,org.apache.axis2;resolution:=optio
+ nal,org.apache.axis2.addressing;resolution:=optional,org.apache.axis2.c
+ ontext;resolution:=optional,org.apache.axis2.description;resolution:=op
+ tional,org.apache.axis2.engine;resolution:=optional,org.apache.axis2.ha
+ ndlers;resolution:=optional,org.apache.axis2.modules;resolution:=option
+ al,org.apache.commons.logging;resolution:=optional,org.apache.neethi;ve
+ rsion="[3.0,4)";resolution:=optional,org.apache.synapse;version="[3.0,4
+ )";resolution:=optional,org.apache.synapse.config;version="[3.0,4)";res
+ olution:=optional,org.apache.synapse.core;version="[3.0,4)";resolution:
+ =optional,org.apache.synapse.core.axis2;version="[3.0,4)";resolution:=o
+ ptional
+Tool: Bnd-1.50.0

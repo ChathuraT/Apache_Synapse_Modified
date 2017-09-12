@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: malintha
+Build-Jdk: 1.8.0_144
+Extension-Name: org.apache.synapse
+Implementation-Title: Apache Synapse
+Implementation-Vendor: Apache Software Foundation
+Implementation-Vendor-Id: org.apache
+Implementation-Version: 3.0.1-SNAPSHOT
+Specification-Title: synapse-patches
+Specification-Vendor: Apache Software Foundation
+Specification-Version: 3.0.1-SNAPSHOT
+

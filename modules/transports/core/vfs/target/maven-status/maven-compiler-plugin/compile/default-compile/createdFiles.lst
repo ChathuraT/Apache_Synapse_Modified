@@ -1,0 +1,8 @@
+org\apache\synapse\transport\vfs\PollTableEntry.class
+org\apache\synapse\transport\vfs\VFSTransportListener$FileRemoveTask.class
+org\apache\synapse\transport\vfs\VFSUtils.class
+org\apache\synapse\transport\vfs\VFSTransportSender.class
+org\apache\synapse\transport\vfs\FileObjectDataSource.class
+org\apache\synapse\transport\vfs\VFSOutTransportInfo.class
+org\apache\synapse\transport\vfs\VFSConstants.class
+org\apache\synapse\transport\vfs\VFSTransportListener.class

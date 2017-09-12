@@ -1,0 +1,48 @@
+--> Wrapper Started as Console
+Launching a JVM...
+Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+  Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+
+
+WARNING - Unable to load the Wrapper's native library because none of the
+          following files:
+            wrapper-windows-x86-64.dll
+            wrapper.dll
+          could be located on the following java.library.path:
+            E:\CE@PDN\CP328\source\java\modules\distribution\target\synapse-3.0.1-SNAPSHOT\lib
+          Please see the documentation for the wrapper.java.library.path
+          configuration property.
+          System signals will not be handled correctly.
+
+2017-09-11 10:39:19,194 [-] [WrapperSimpleAppMain]  INFO SynapseServer Starting Apache Synapse...
+2017-09-11 10:39:19,209 [-] [WrapperSimpleAppMain]  INFO SynapseControllerFactory Using Synapse home : E:\CE@PDN\CP328\source\java\modules\distribution\target\synapse-3.0.1-SNAPSHOT\.
+2017-09-11 10:39:19,209 [-] [WrapperSimpleAppMain]  INFO SynapseControllerFactory Using Axis2 repository : E:\CE@PDN\CP328\source\java\modules\distribution\target\synapse-3.0.1-SNAPSHOT\repository
+2017-09-11 10:39:19,209 [-] [WrapperSimpleAppMain]  INFO SynapseControllerFactory Using axis2.xml location : E:\CE@PDN\CP328\source\java\modules\distribution\target\synapse-3.0.1-SNAPSHOT\repository\conf\axis2.xml
+2017-09-11 10:39:19,209 [-] [WrapperSimpleAppMain]  INFO SynapseControllerFactory Using synapse.xml location : E:\CE@PDN\CP328\source\java\modules\distribution\target\synapse-3.0.1-SNAPSHOT\bin\..\repository\conf\synapse-config
+2017-09-11 10:39:19,209 [-] [WrapperSimpleAppMain]  INFO SynapseControllerFactory Using server name : localhost
+2017-09-11 10:39:19,226 [-] [WrapperSimpleAppMain]  INFO SynapseControllerFactory The timeout handler will run every : 15s
+2017-09-11 10:39:19,278 [-] [WrapperSimpleAppMain]  INFO Axis2SynapseController Initializing Synapse at : Mon Sep 11 10:39:19 IST 2017
+2017-09-11 10:39:19,928 [-] [WrapperSimpleAppMain]  INFO JMSSender JMS Sender started
+2017-09-11 10:39:19,929 [-] [WrapperSimpleAppMain]  INFO JMSSender JMS Transport Sender initialized...
+2017-09-11 10:39:19,929 [-] [WrapperSimpleAppMain]  INFO VFSTransportSender VFS Sender started
+2017-09-11 10:39:20,048 [-] [WrapperSimpleAppMain]  INFO PassThroughHttpSender Pass-through HTTP sender started...
+2017-09-11 10:39:20,048 [-] [WrapperSimpleAppMain]  INFO PassThroughHttpSSLSender Loading Identity Keystore from : lib/identity.jks
+2017-09-11 10:39:20,111 [-] [WrapperSimpleAppMain]  INFO PassThroughHttpSSLSender Loading Trust Keystore from : lib/trust.jks
+2017-09-11 10:39:20,264 [-] [WrapperSimpleAppMain]  INFO PassThroughHttpSSLSender Pass-through HTTPS sender started...
+2017-09-11 10:39:20,412 [-] [WrapperSimpleAppMain]  INFO PassThroughHttpSSLListener Loading Identity Keystore from : lib/identity.jks
+2017-09-11 10:39:20,412 [-] [WrapperSimpleAppMain]  INFO PassThroughHttpSSLListener Loading Trust Keystore from : lib/trust.jks
+2017-09-11 10:39:20,412 [-] [WrapperSimpleAppMain]  INFO Axis2SynapseController Loading mediator extensions...
+2017-09-11 10:39:20,434 [-] [WrapperSimpleAppMain]  INFO MultiXMLConfigurationBuilder Building synapse configuration from the synapse artifact repository at : E:\CE@PDN\CP328\source\java\modules\distribution\target\synapse-3.0.1-SNAPSHOT\bin\..\repository\conf\synapse-config
+2017-09-11 10:39:20,434 [-] [WrapperSimpleAppMain]  INFO XMLConfigurationBuilder Generating the Synapse configuration model by parsing the XML configuration
+2017-09-11 10:39:20,516 [-] [WrapperSimpleAppMain]  INFO SynapseConfigurationBuilder Loaded Synapse configuration from the artifact repository at : E:\CE@PDN\CP328\source\java\modules\distribution\target\synapse-3.0.1-SNAPSHOT\bin\..\repository\conf\synapse-config
+2017-09-11 10:39:20,516 [-] [WrapperSimpleAppMain]  INFO Axis2SynapseController Deploying the Synapse service...
+2017-09-11 10:39:20,534 [-] [WrapperSimpleAppMain]  INFO Axis2SynapseController Deploying Proxy services...
+2017-09-11 10:39:20,534 [-] [WrapperSimpleAppMain]  INFO Axis2SynapseController Deploying EventSources...
+2017-09-11 10:39:20,565 [-] [WrapperSimpleAppMain]  INFO PassThroughHttpListener Starting pass-through HTTP listener...
+2017-09-11 10:39:20,565 [-] [WrapperSimpleAppMain]  INFO PassThroughHttpListener Pass-through HTTP listener started on port: 8280
+2017-09-11 10:39:20,565 [-] [WrapperSimpleAppMain]  INFO PassThroughHttpSSLListener Starting pass-through HTTPS listener...
+2017-09-11 10:39:20,581 [-] [WrapperSimpleAppMain]  INFO PassThroughHttpSSLListener Pass-through HTTPS listener started on port: 8243
+2017-09-11 10:39:20,581 [-] [WrapperSimpleAppMain]  INFO Axis2SynapseController Management using JMX available via: service:jmx:rmi:///jndi/rmi://malintha-pc:1099/synapse
+2017-09-11 10:39:20,581 [-] [WrapperSimpleAppMain]  INFO TimeoutHandler This engine will expire all callbacks after : 180 seconds, irrespective of the timeout action, after the specified or optional timeout
+2017-09-11 10:39:20,581 [-] [WrapperSimpleAppMain]  INFO ServerManager Server ready for processing...
+2017-09-11 10:39:20,581 [-] [WrapperSimpleAppMain]  INFO SynapseServer Apache Synapse started successfully

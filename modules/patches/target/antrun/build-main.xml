@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <unjar dest="E:\CE@PDN\CP328\source\java\modules\patches\target\classes">
+    <fileset dir="E:\CE@PDN\CP328\source\java\modules\patches/target/jars">
+      <include name="**/*.jar"/>
+    </fileset>
+  </unjar>
+</target>
+</project>

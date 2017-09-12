@@ -1,0 +1,11 @@
+org\apache\synapse\maven\xar\AbstractXarMojo$1.class
+org\apache\synapse\maven\xar\ClassScanner.class
+org\apache\synapse\maven\xar\ClassScannerException.class
+org\apache\synapse\maven\xar\XarMojo.class
+org\apache\synapse\maven\xar\ServiceLocator.class
+org\apache\synapse\maven\xar\AbstractXarMojo$3.class
+org\apache\synapse\maven\xar\ClassScanner$1.class
+org\apache\synapse\maven\xar\ClassVisitor.class
+org\apache\synapse\maven\xar\AbstractXarMojo$2.class
+org\apache\synapse\maven\xar\AbstractXarMojo.class
+org\apache\synapse\maven\xar\XarExplodedMojo.class

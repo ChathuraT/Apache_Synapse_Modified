@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <echo message="*** Creating a testing repository ***"/>
+  <mkdir dir="target/test_repos"/>
+  <mkdir dir="target/test_repos/synapse/modules"/>
+  <mkdir dir="target/test_repos/synapse/services"/>
+  <mkdir dir="target/test_repos/client/modules"/>
+  <mkdir dir="target/test_repos/synapse/synapse-libraries"/>
+  <mkdir dir="target/library_repos"/>
+  <copy file="target/synapse-test-lib.zip" todir="target/test_repos/synapse/synapse-libraries"/>
+  <copy file="target/synapse-eiptest-lib.zip" todir="target/test_repos/synapse/synapse-libraries"/>
+  <copy file="target/synapse-eipcore-lib.zip" todir="target/library_repos"/>
+</target>
+</project>

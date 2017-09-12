@@ -1,0 +1,5 @@
+org\apache\synapse\handler\SynapseInHandler.class
+org\apache\synapse\handler\util\HandlerUtil.class
+org\apache\synapse\handler\HandlerConstants.class
+org\apache\synapse\handler\SynapseModule.class
+org\apache\synapse\handler\SynapseOutHandler.class

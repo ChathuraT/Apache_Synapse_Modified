@@ -1,0 +1,3 @@
+org\apache\commons\vfs2\provider\ftp\FtpFileNameParser.class
+org\apache\commons\vfs2\provider\ftp\FtpFileProvider.class
+org\apache\commons\vfs2\provider\AbstractFileName.class

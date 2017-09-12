@@ -1,0 +1,16 @@
+org\apache\synapse\task\SynapseTaskException.class
+org\apache\synapse\task\TaskScheduler.class
+org\apache\synapse\task\TaskDescriptionFactory.class
+org\apache\synapse\task\Task.class
+org\apache\synapse\task\TaskTriggerFactory.class
+org\apache\synapse\task\TaskDescriptionRepository.class
+org\apache\synapse\task\TaskDescription.class
+org\apache\synapse\task\TaskJobDetailFactory.class
+org\apache\synapse\task\TaskSchedulerFactory.class
+org\apache\synapse\task\DefaultTaskJobDetailFactory.class
+org\apache\synapse\task\TaskDescriptionSerializer.class
+org\apache\synapse\task\TaskConstants.class
+org\apache\synapse\task\service\TaskManagementService.class
+org\apache\synapse\task\DefaultTaskTriggerFactory.class
+org\apache\synapse\task\SynapseTaskManager.class
+org\apache\synapse\task\TaskDescriptionRepositoryFactory.class

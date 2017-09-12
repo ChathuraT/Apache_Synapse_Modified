@@ -1,0 +1,14 @@
+org\apache\synapse\transport\fix\FIXApplicationFactory.class
+org\apache\synapse\transport\fix\message\FIXMessageBuilder.class
+org\apache\synapse\transport\fix\message\FIXMessageFormatter.class
+org\apache\synapse\transport\fix\AxisFIXException.class
+org\apache\synapse\transport\fix\FIXUtils.class
+org\apache\synapse\transport\fix\FIXConstants.class
+org\apache\synapse\transport\fix\FIXTransportSender.class
+org\apache\synapse\transport\fix\FIXTransportListener.class
+org\apache\synapse\transport\fix\SessionEventHandler.class
+org\apache\synapse\transport\fix\FIXIncomingMessageHandler$FIXWorkerThread.class
+org\apache\synapse\transport\fix\FIXIncomingMessageHandler.class
+org\apache\synapse\transport\fix\FIXOutgoingMessageHandler.class
+org\apache\synapse\transport\fix\FIXOutTransportInfo.class
+org\apache\synapse\transport\fix\FIXSessionFactory.class

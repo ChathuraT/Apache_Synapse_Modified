@@ -1,0 +1,34 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1505027904186
+Build-Jdk: 1.8.0_144
+Built-By: malintha
+Bundle-Description: Apache Synapse - Experimental code (use at your own 
+ risk!)
+Bundle-DocURL: http://www.apache.org/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Synapse - Experimental code
+Bundle-SymbolicName: synapse-experimental
+Bundle-Vendor: Apache Software Foundation
+Bundle-Version: 3.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+DynamicImport-Package: *
+Export-Package: org.apache.synapse.experimental;uses:="org.apache.axiom.
+ om,org.apache.synapse.mediators,org.apache.synapse,org.apache.synapse.u
+ til.xpath,javax.xml.namespace,org.jaxen,org.apache.synapse.config.xml";
+ version="3.0.1.SNAPSHOT",org.apache.synapse.experimental.mediators.seda
+ ;uses:="org.apache.synapse,org.apache.synapse.mediators,org.apache.syna
+ pse.config,org.apache.synapse.core,org.apache.axiom.om,javax.xml.namesp
+ ace,org.apache.synapse.config.xml,org.apache.commons.logging";version="
+ 3.0.1.SNAPSHOT"
+Ignore-Package: javax.xml.namespace
+Import-Package: javax.xml.namespace;version="0.0.0",org.apache.axiom.om;
+ resolution:=optional,org.apache.commons.logging;resolution:=optional,or
+ g.apache.synapse;version="[3.0,4)";resolution:=optional,org.apache.syna
+ pse.config;version="[3.0,4)";resolution:=optional,org.apache.synapse.co
+ nfig.xml;version="[3.0,4)";resolution:=optional,org.apache.synapse.core
+ ;version="[3.0,4)";resolution:=optional,org.apache.synapse.mediators;ve
+ rsion="[3.0,4)";resolution:=optional,org.apache.synapse.util.xpath;vers
+ ion="[3.0,4)";resolution:=optional,org.jaxen;version="[1.1,2)";resoluti
+ on:=optional
+Tool: Bnd-1.50.0
