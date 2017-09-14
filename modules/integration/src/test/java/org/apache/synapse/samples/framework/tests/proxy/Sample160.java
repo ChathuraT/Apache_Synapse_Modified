@@ -24,6 +24,9 @@ import org.apache.synapse.samples.framework.SynapseTestCase;
 import org.apache.synapse.samples.framework.clients.BasicHttpClient;
 import org.apache.synapse.samples.framework.clients.HttpResponse;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Sample160 extends SynapseTestCase {
 
     private String requestXml;
@@ -45,13 +48,18 @@ public class Sample160 extends SynapseTestCase {
     }
 
     public void testDisableChunkingWithBasicProxy() throws Exception {
-        String url = "http://localhost:8280/services/StockQuoteProxy";
+        String url = "http://localhost:8280/services/StockQuoteProxy1";
+//        Thread.sleep(100000);
+        Map<String,String> headers = new HashMap<String, String>();
+        headers = new HashMap<String, String>();
+        headers.put("SOAPAction", "urn:getPrice");
+        log.info("Running test: Routing Messages based on HTTP URL, HTTP Headers and " +
+                "Query Parameters");
+
         HttpResponse response = httpClient.doPost(url, requestXml.getBytes(),
-                "application/soap+xml;charset=UTF-8");
-        assertEquals(HttpStatus.SC_OK, response.getStatus());
-        assertFalse(HttpHeaders.TRANSFER_ENCODING + " is present in the header",
-                response.getHeaders().containsKey(HttpHeaders.TRANSFER_ENCODING));
-        assertTrue(HttpHeaders.CONTENT_LENGTH + " is missing in the header",
-                response.getHeaders().containsKey(HttpHeaders.CONTENT_LENGTH));
+                "application/soap+xml;charset=UTF-8",headers);
+        assertEquals(200, response.getStatus());
+        assertTrue(response.getBodyAsString().contains("42"));
     }
+
 }
