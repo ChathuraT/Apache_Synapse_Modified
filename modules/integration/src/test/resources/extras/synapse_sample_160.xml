@@ -18,18 +18,17 @@
   ~  under the License.
   -->
 
-<!-- DISABLE_CHUNKING in response path proxy services -->
 <definitions xmlns="http://ws.apache.org/ns/synapse">
-    <proxy name="StockQuoteProxy">
+    <proxy name="StockQuoteProxy1">
         <target>
+            <log level="full"/>
             <endpoint>
-                <address uri="http://localhost:9000/services/SimpleStockQuoteService"/>
+                <address uri="http://localhost:8080/axis2/services/StockQuoteService"/>
             </endpoint>
             <outSequence>
-                <property name="DISABLE_CHUNKING" value="true" scope="axis2"/>
                 <send/>
             </outSequence>
         </target>
-        <publishWSDL uri="file:repository/conf/sample/resources/proxy/sample_proxy_1.wsdl"/>
+        <publishWSDL uri="http://localhost:8080/axis2/services/StockQuoteService?wsdl"/>
     </proxy>
 </definitions>
