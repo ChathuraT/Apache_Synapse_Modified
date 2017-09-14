@@ -18,48 +18,22 @@
  */
 package org.apache.synapse.samples.framework.tests.proxy;
 
-import org.apache.http.HttpHeaders;
-import org.apache.http.HttpStatus;
 import org.apache.synapse.samples.framework.SynapseTestCase;
 import org.apache.synapse.samples.framework.clients.BasicHttpClient;
-import org.apache.synapse.samples.framework.clients.HttpResponse;
 
-import java.util.HashMap;
-import java.util.Map;
 
 public class Sample8004 extends SynapseTestCase {
 
-    private String requestXml;
     private BasicHttpClient httpClient;
 
     public Sample8004() {
         super(8004);
         httpClient = new BasicHttpClient();
-        requestXml = "<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:ser=\"http://services.samples\" xmlns:xsd=\"http://services.samples/xsd\">\n" +
-                "       <soap:Header/>\n" +
-                "       <soap:Body>\n" +
-                "          <ser:getQuote>\n" +
-                "             <ser:request>\n" +
-                "                <xsd:symbol>IBM</xsd:symbol>\n" +
-                "             </ser:request>\n" +
-                "          </ser:getQuote>\n" +
-                "       </soap:Body>\n" +
-                "    </soap:Envelope>";
+        //create your request payload here
     }
 
     public void testResponseHTTPStatusCode() throws Exception {
-        String url = "http://localhost:8280/services/StockQuoteProxy";
-//        Thread.sleep(100000);
-        Map<String,String> headers = new HashMap<String, String>();
-        headers = new HashMap<String, String>();
-        headers.put("SOAPAction", "urn:getPrice");
-        log.info("Running test: Routing Messages based on HTTP URL, HTTP Headers and " +
-                "Query Parameters");
-
-        HttpResponse response = httpClient.doPost(url, requestXml.getBytes(),
-                "application/soap+xml;charset=UTF-8",headers);
-        assertEquals(200, response.getStatus());
-        assertTrue(response.getBodyAsString().contains("42"));
+        //write your test here
     }
 
 }
