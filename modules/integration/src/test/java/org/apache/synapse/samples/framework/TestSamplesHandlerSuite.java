@@ -50,6 +50,33 @@ public class TestSamplesHandlerSuite extends TestSuite {
 
         //preparing suites, if specified
         if (inputSuiteName != null) {
+            if (inputSuiteName.equalsIgnoreCase("message")) {
+                suiteName = "MessageMediationSamplesSuite";
+                for (int i = 0; i <= 15; i++) {
+                    Class testClass = (Class) sampleClassRepo.get(Integer.toString(i));
+                    if (testClass != null) {
+                        suiteClassesList.add(testClass);
+                    }
+                }
+            }
+            if (inputSuiteName.equalsIgnoreCase("endpoint")) {
+                suiteName = "EndpointSamplesSuite";
+                for (int i = 50; i <= 60; i++) {
+                    Class testClass = (Class) sampleClassRepo.get(Integer.toString(i));
+                    if (testClass != null) {
+                        suiteClassesList.add(testClass);
+                    }
+                }
+            }
+            if (inputSuiteName.equalsIgnoreCase("qos")) {
+                suiteName = "QoSSamplesSuite";
+                for (int i = 100; i <= 110; i++) {
+                    Class testClass = (Class) sampleClassRepo.get(Integer.toString(i));
+                    if (testClass != null) {
+                        suiteClassesList.add(testClass);
+                    }
+                }
+            }
             if (inputSuiteName.equalsIgnoreCase("proxy")) {
                 suiteName = "ProxySamplesSuite";
                 for (int i = 150; i <= 170; i++) {
@@ -59,7 +86,42 @@ public class TestSamplesHandlerSuite extends TestSuite {
                     }
                 }
             }
-
+            if (inputSuiteName.equalsIgnoreCase("transport")) {
+                suiteName = "TransportSamplesSuite";
+                for (int i = 250; i <= 280; i++) {
+                    Class testClass = (Class) sampleClassRepo.get(Integer.toString(i));
+                    if (testClass != null) {
+                        suiteClassesList.add(testClass);
+                    }
+                }
+            }
+            if (inputSuiteName.equalsIgnoreCase("tasks")) {
+                suiteName = "TasksSamplesSuite";
+                for (int i = 300; i <= 310; i++) {
+                    Class testClass = (Class) sampleClassRepo.get(Integer.toString(i));
+                    if (testClass != null) {
+                        suiteClassesList.add(testClass);
+                    }
+                }
+            }
+            if (inputSuiteName.equalsIgnoreCase("advanced")) {
+                suiteName = "AdvancedSamplesSuite";
+                for (int i = 350; i <= 490; i++) {
+                    Class testClass = (Class) sampleClassRepo.get(Integer.toString(i));
+                    if (testClass != null) {
+                        suiteClassesList.add(testClass);
+                    }
+                }
+            }
+            if (inputSuiteName.equalsIgnoreCase("eventing")) {
+                suiteName = "EventingSamplesSuite";
+                for (int i = 500; i <= 510; i++) {
+                    Class testClass = (Class) sampleClassRepo.get(Integer.toString(i));
+                    if (testClass != null) {
+                        suiteClassesList.add(testClass);
+                    }
+                }
+            }
         } else if (tests != null) {
             String[] testArray = tests.split(",");
             suiteName = "SelectedSamplesSuite";
@@ -89,19 +151,7 @@ public class TestSamplesHandlerSuite extends TestSuite {
     }
 
     private static void populateSamplesMap() {
-
-
         //Proxy Service
-//        sampleClassRepo.put("150", Sample150.class);
-//        sampleClassRepo.put("151", Sample151.class);
-//        sampleClassRepo.put("152", Sample152.class);
-//        sampleClassRepo.put("153", Sample153.class); // unable to load the JKS files
-//        sampleClassRepo.put("154", Sample154.class);
-//        sampleClassRepo.put("155", Sample155.class);
-//        sampleClassRepo.put("156", Sample156.class);
-//        sampleClassRepo.put("157", Sample157.class);
-        sampleClassRepo.put("162", SampleTest.class);
-//        sampleClassRepo.put("161", Sample161.class);
-
+        sampleClassRepo.put("160", Sample160.class);
     }
 }
