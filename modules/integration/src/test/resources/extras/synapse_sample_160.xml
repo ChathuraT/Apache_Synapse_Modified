@@ -19,7 +19,7 @@
   -->
 
 <definitions xmlns="http://ws.apache.org/ns/synapse">
-    <proxy name="StockQuoteProxy1">
+    <proxy name="StockQuoteProxy">
         <target>
             <log level="full"/>
             <endpoint>
