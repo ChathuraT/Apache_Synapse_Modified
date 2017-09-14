@@ -151,7 +151,7 @@ public class TestSamplesHandlerSuite extends TestSuite {
     }
 
     private static void populateSamplesMap() {
-        //Proxy Service
-        sampleClassRepo.put("160", Sample160.class);
+        //Register your test cases here
+        sampleClassRepo.put("8004", Sample8004.class);
     }
 }
